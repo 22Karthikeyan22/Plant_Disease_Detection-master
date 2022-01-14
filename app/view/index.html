@@ -259,7 +259,7 @@ transform:rotate(360deg);
 		<p><b>Share a picture of the plant and get immediate results!</b></p>
 	</div>
 	<!-- </div> -->
-	<div class="inner">
+	<div class="inner" style="width:500px">
 		<form id="analysis-form" class="form1 enctype="multipart/form-data">
 			<div class="imgbox"><img src="../static/about.jpg" class="img" id="selected_image">
 				<div class="middle">
@@ -271,7 +271,17 @@ transform:rotate(360deg);
 				<span>Analyze</span>
 			</button>
 		</form>
-		<div id="result"><b>Result</b></div>
+		<div id="result" style="display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(
+83deg
+, #98e156, #41c3e18c);
+    padding: 15px;
+    border-radius: 10px;"><b>Result</b></div>
 	</div>
 	</section>
 
